@@ -35,3 +35,13 @@ Handles long text by splitting it into chunks.
 
 Error Handling:
 Returns appropriate error messages for missing files, empty filenames, or analysis failures.
+
+----------------------------------------Sentimentanalysis of the Text----------------------------------------------------------
+Model Used:
+a pre-trained model from the transformers library is used. Specifically:
+
+Sentiment Analysis Pipeline: This uses a pre-trained model for sentiment classification. The pipeline('sentiment-analysis') function creates a pipeline for sentiment analysis.
+Tokenizer: The tokenizer, AutoTokenizer.from_pretrained('distilbert-base-uncased'), is used to convert text into tokens that the model can process.
+
+
+
